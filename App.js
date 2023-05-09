@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import useAppFont from './src/shared/hooks/useAppFont';
 import MaintContainer from './src/shared/components/MainContainer';
 import Welcome from './src/features/Welcome/Welcome';
+import Login from './src/features/Login/Login';
 
 
 
@@ -18,7 +19,7 @@ export default function App() {
   return (
     <ThemeProvider>
     <MaintContainer>
-      <Welcome/>
+      <Login/>
     </MaintContainer>
     </ThemeProvider>
   );

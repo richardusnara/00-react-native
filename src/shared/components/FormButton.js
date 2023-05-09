@@ -15,7 +15,13 @@ const FormButton = ({label, onClick}) => {
 const styling = (theme) => StyleSheet.create({
 button: {
     alignItems: "center",
-    backgroundColor: theme.color.secondary
+    backgroundColor: theme.color.secondary,
+    borderRadius: theme.radius.l,
+    padding: theme.spacing.m,
+    margin: theme.spacing.m,
+    alignSelf: 'stretch'
+ 
+
 },
 buttonText: {
     color: theme.color.tertiary,
